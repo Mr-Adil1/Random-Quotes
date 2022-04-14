@@ -1,1 +1,1 @@
-# Random-Quotes link : https://github.com/MrDeveloperr/Random-Quotes.git
+# Random-Quotes link : https://mrdeveloperr.github.io/Random-Quotes/
