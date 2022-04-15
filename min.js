@@ -5,13 +5,8 @@ const quotBtn = document.querySelector('button');
 const authername = document.querySelector('.name');
 const soundbtn = document.querySelector('.sound');
 const copy = document.querySelector('.copy');
-const toggle = document.querySelector('.toggle');
-const share = document.querySelector('.share');
-const copied = document.querySelector('.copied');
-const insta = document.querySelector('.bxl-instagram');
-const twitt = document.querySelector('.bxl-twitter');
-const whatsapp = document.querySelector('.bxl-whatsapp');
-const facebook = document.querySelector('.bxl-facebook');
+const twittwr = document.querySelector('.twitter');
+const copied = document.querySelector('.copied')
 
 // random_Quote_function
 quotBtn.addEventListener('click', () => {
@@ -42,23 +37,8 @@ copy.addEventListener('click', () => {
         copied.classList.remove('show');
     }, 1000);
 });
-// links-toggle
-toggle.addEventListener('click', () => {
-    share.classList.toggle('active');
-});
-// instagram
-insta.addEventListener('click', () => {
-    open('https://www.instagram.com/');
-});
-// twitter
-twitt.addEventListener('click', () => {
-    open('https://www.twitter.com/');
-});
-// whatsapp
-whatsapp.addEventListener('click', () => {
-    open('https://web.whatsapp.com/');
-});
-// facebook
-facebook.addEventListener('click', () => {
-    open('https://www.facebook.com/');
+
+twittwr.addEventListener('click', () => {
+    let twitUrl = `https://twitter.com/intent/tweet?url=${quotetext.innerHTML}`
+    window.open(twitUrl, '_blank');
 });
