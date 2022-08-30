@@ -1,1 +1,1 @@
-# Random-Quotes link : https://mr.adil.github.io/Random-Quotes/
+# Random-Quotes link : https://Mr-Adil.github.io/Random-Quotes/
